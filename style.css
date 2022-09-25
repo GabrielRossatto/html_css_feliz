@@ -6,10 +6,18 @@
 header { 
     display: flex;
     justify-content: space-between;
-    background-color: #000;
-    border-bottom: 10px solid rgb(60, 0, 255);
+    align-items: center;
+    background-color: rgb(44, 62, 80);
+    border-bottom: 10px solid rgb(60, 0, 255, 0.7);
     box-shadow: 0px 0px 100px rgb(255, 132, 0);
     padding: 10px 20px
+}
+
+header > h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    color: rgb(236, 240, 241);
+    text-shadow: 2px 2px 2px black;
+
 }
 
 nav {
@@ -37,16 +45,58 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
-    background-color: #F25A70;
+    background-color: rgb(243, 156, 18);
     box-shadow: 5px 5px 0px #000;
     padding: 20px 18px;
     margin-right: 0;
+    transition: transform 100ms linear;
 }
 
-#button:hover {
-    background-color: rgb(195, 44, 27);
+.button:hover {
+    transform: scale(1.08);
+    background-color: #ff02ea;
+
     border-radius: 10px;
     
+}
+section {
+    margin-top: 5px;
+    display: flex;
+    margin-top: 127px;
+    margin-left: 170px;
+
+}
+
+#principal > h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #9b59b6;
+
+}
+
+#principal > h2 {
+    font-size: 30px;
+    color: white;
+}
+#principal {
+    font-family: 'Fira Code', sans-serif;
+    display: inline-block;
+    text-align: center;
+    background-color: #333;
+    width: 600px;
+    height: 184px;
+}
+
+#infos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+
+}
+
+#infos > a {
+    color: #FFF;
+
 }
