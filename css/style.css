@@ -62,15 +62,31 @@ a::before {
     
 }
 section {
+    /*
+    background-image: url(/assets/img/popeye.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
     margin-top: 5px;
     display: flex;
+    width: 100vw;
+    height: 100vh;
     margin-top: 127px;
     margin-left: 170px;
 
 }
 
+#principal {
+    font-family: 'Fira Code', sans-serif;
+    display: inline-block;
+    text-align: center;
+    background-color: #333;
+    width: 600px;
+    height: 184px;
+    box-shadow: 10px 10px 0 black;
+}
+
 #principal > h1 {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 40px;
     color: #9b59b6;
 
@@ -80,14 +96,7 @@ section {
     font-size: 30px;
     color: white;
 }
-#principal {
-    font-family: 'Fira Code', sans-serif;
-    display: inline-block;
-    text-align: center;
-    background-color: #333;
-    width: 600px;
-    height: 184px;
-}
+
 
 #infos {
     display: flex;
