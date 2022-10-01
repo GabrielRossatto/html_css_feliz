@@ -5,12 +5,16 @@
     padding: 20px 18px;
     margin-right: 0;
     transition: transform 100ms linear;
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Fira Code";
+    font-size: 20px;
+
 }
 
 .button:hover {
     transform: scale(1.08);
     background-color: #ff02ea;
-
     border-radius: 10px;
     
 }
