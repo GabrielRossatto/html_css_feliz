@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(/assets/img/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    border-bottom: 10px solid #000;
+    padding-left: 40px;
+    padding-top: 115px;
+
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+
+}
+
+.banner .box {
+
+    margin-bottom: 90px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+
+
+}
