@@ -18,3 +18,11 @@
 .card-project.-withoutborder {
     box-shadow: none;
 }
+
+
+.card-project.-second {
+    display: flex;
+    width: 1000px;
+    height: 140px;
+    box-shadow: 10px 10px 0px black;
+}
